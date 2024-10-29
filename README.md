@@ -1,7 +1,7 @@
 # Princeofscale_discord
 A simple discord bot with minimal functionality, just for beauty
 
-This bot just adds 6 simple slash commands, which can be usefull if you play Arizona RP:
+This bot just adds 6 simple slash commands to your discord server, which can be usefull if you play Arizona RP:
 
 1. /𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲_𝗻𝗶𝗰𝗸𝗻𝗮𝗺𝗲 - as it seems, generates random nickname
 2. /𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲_𝗽𝗮𝘀𝘀𝘄𝗼𝗿𝗱 - generates password
