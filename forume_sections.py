@@ -2,25 +2,25 @@ import disnake
 
 
 
-class sections_class1(disnake.ui.View): 
-    
+class sections_class1(disnake.ui.View):
+
     def __init__(self):
         super().__init__()
-    
+
     @disnake.ui.button(label="Phoenix", style=disnake.ButtonStyle.gray)
     async def server1(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/338/")
-        
+
 
     @disnake.ui.button(label="Tucson", style=disnake.ButtonStyle.gray)
     async def server2(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/339/")
-        
+
 
     @disnake.ui.button(label="Scottdale", style=disnake.ButtonStyle.gray)
     async def server3(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/340/")
-        
+
 
     @disnake.ui.button(label="Chandler", style=disnake.ButtonStyle.gray)
     async def server4(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
@@ -56,10 +56,6 @@ class sections_class1(disnake.ui.View):
     async def server10(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/1053/")
 
-class sections_class2(disnake.ui.View): 
-    
-    def __init__(self):
-        super().__init__()
 
     @disnake.ui.button(label="Prescott", style=disnake.ButtonStyle.gray)
     async def server11(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
@@ -110,10 +106,6 @@ class sections_class2(disnake.ui.View):
     async def server20(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/1986/")
 
-class sections_class3(disnake.ui.View): 
-    
-    def __init__(self):
-        super().__init__()
 
     @disnake.ui.button(label="Queen-Creek", style=disnake.ButtonStyle.gray)
     async def server21(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
@@ -140,6 +132,12 @@ class sections_class3(disnake.ui.View):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/2756/")
 
 
+class sections_class2(disnake.ui.View):
+
+    def __init__(self):
+        super().__init__()
+
+
     @disnake.ui.button(label="Faraway", style=disnake.ButtonStyle.gray)
     async def server26(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/2905/")
@@ -163,3 +161,8 @@ class sections_class3(disnake.ui.View):
     @disnake.ui.button(label="Love", style=disnake.ButtonStyle.gray)
     async def server30(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/3289/")
+
+
+    @disnake.ui.button(label="Arizona Drake", style=disnake.ButtonStyle.gray)
+    async def server31(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
+        await inter.response.send_message("Вот ваша ссылка : https://forum.arizona-rp.com/forums/3541/")
