@@ -5,21 +5,21 @@ import disnake
 class api_class1(disnake.ui.View):
     def __init__(self):
         super().__init__()
-    
+
     @disnake.ui.button(label="Phoenix", style=disnake.ButtonStyle.gray)
     async def server1(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваш айпи : 185.169.134.3:7777")
-        
+
 
     @disnake.ui.button(label="Tucson", style=disnake.ButtonStyle.gray)
     async def server2(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваш айпи : 185.169.134.4:7777")
-        
+
 
     @disnake.ui.button(label="Scottdale", style=disnake.ButtonStyle.gray)
     async def server3(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваш айпи : 185.169.134.43:7777")
-        
+
 
     @disnake.ui.button(label="Chandler", style=disnake.ButtonStyle.gray)
     async def server4(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
@@ -55,10 +55,6 @@ class api_class1(disnake.ui.View):
     async def server10(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваш айпи : 185.169.134.109:7777")
 
-class api_class2(disnake.ui.View): 
-    
-    def __init__(self):
-        super().__init__()
 
     @disnake.ui.button(label="Prescott", style=disnake.ButtonStyle.gray)
     async def server11(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
@@ -109,10 +105,6 @@ class api_class2(disnake.ui.View):
     async def server20(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваш айпи : 80.66.82.159:7777")
 
-class api_class3(disnake.ui.View): 
-    
-    def __init__(self):
-        super().__init__()
 
     @disnake.ui.button(label="Queen-Creek", style=disnake.ButtonStyle.gray)
     async def server21(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
@@ -139,6 +131,14 @@ class api_class3(disnake.ui.View):
         await inter.response.send_message("Вот ваш айпи : 80.66.82.113:7777")
 
 
+
+
+class api_class2(disnake.ui.View):
+
+    def __init__(self):
+        super().__init__()
+
+
     @disnake.ui.button(label="Faraway", style=disnake.ButtonStyle.gray)
     async def server26(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваш айпи : 80.66.82.82:7777")
@@ -162,3 +162,8 @@ class api_class3(disnake.ui.View):
     @disnake.ui.button(label="Love", style=disnake.ButtonStyle.gray)
     async def server30(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
         await inter.response.send_message("Вот ваш айпи : 80.66.82.33:7777")
+
+
+    @disnake.ui.button(label="Arizona Drake", style=disnake.ButtonStyle.gray)
+    async def server31(self, button: disnake.ui.Button, inter: disnake.CommandInteraction):
+        await inter.response.send_message("Вот ваш айпи : 80.66.82.22:7777")
